@@ -1,0 +1,677 @@
+5:local _={};_[1]="return {B=true,A=true,C=true}";_[2]="real_portstates";_[3]="ignore_offevents";_[4]="lc_memory";_[5]="mesecons_extrawires:corner_off";_[6]="mesecons_luacontroller:luacontroller0000";_[7]="luac_id";_[8]="formspec";_[9]="return {}";_[10]="inventory";return {{x=0,y=0,param1=15,param2=2,z=0,name=_[5]},{x=0,y=1,param1=15,param2=2,z=0,name=_[5]},{x=0,y=2,param1=15,param2=2,z=0,name=_[5]},{x=0,y=3,param1=15,param2=2,z=0,name=_[5]},{x=0,y=4,param1=15,param2=2,z=0,name=_[5]},{x=1,y=0,param1=15,meta={fields={[_[4]]=_[9],[_[8]]="formspec_version[2]size[15,12]style_type[label,textarea;font=mono]background[0,0;15,12;jeija_luac_background.png]textarea[0.2,0.5;14.6,9.0;code;;CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"F\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  else\
+  -- No hay\
+  end]textarea[0.2,9.8;14.6,1.0;;;]image_button[6.25,10.8;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[14.5,0;0.4,0.387;jeija_close_window.png;exit;]",[_[7]]="26917",[_[3]]=_[1],[_[2]]="1",code="CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"F\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  else\
+  -- No hay\
+  end"},[_[10]]={}},z=0,name=_[6]},{x=1,y=1,param1=15,meta={fields={[_[4]]=_[9],[_[8]]="formspec_version[2]size[15,12]style_type[label,textarea;font=mono]background[0,0;15,12;jeija_luac_background.png]textarea[0.2,0.5;14.6,9.0;code;;CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"F\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  else\
+  -- No hay\
+  end]textarea[0.2,9.8;14.6,1.0;;;]image_button[6.25,10.8;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[14.5,0;0.4,0.387;jeija_close_window.png;exit;]",[_[7]]="12359",[_[3]]=_[1],[_[2]]="1",code="CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"F\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  else\
+  -- No hay\
+  end"},[_[10]]={}},z=0,name=_[6]},{x=1,y=2,param1=15,meta={fields={[_[4]]=_[9],[_[8]]="formspec_version[2]size[15,12]style_type[label,textarea;font=mono]background[0,0;15,12;jeija_luac_background.png]textarea[0.2,0.5;14.6,9.0;code;;CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"B\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"D\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"E\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"F\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  else\
+  -- No hay\
+  end]textarea[0.2,9.8;14.6,1.0;;;]image_button[6.25,10.8;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[14.5,0;0.4,0.387;jeija_close_window.png;exit;]",[_[7]]="12299",[_[3]]=_[1],code="CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"B\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"D\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"E\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"F\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  else\
+  -- No hay\
+  end",[_[2]]="1"},[_[10]]={}},z=0,name=_[6]},{x=1,y=3,param1=15,meta={fields={[_[4]]=_[9],[_[8]]="formspec_version[2]size[15,12]style_type[label,textarea;font=mono]background[0,0;15,12;jeija_luac_background.png]textarea[0.2,0.5;14.6,9.0;code;;CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"5\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+   elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"F\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  else\
+  end]textarea[0.2,9.8;14.6,1.0;;;]image_button[6.25,10.8;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[14.5,0;0.4,0.387;jeija_close_window.png;exit;]",[_[7]]="19836",[_[3]]=_[1],code="CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"5\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = false\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+   elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = true\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"F\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  else\
+  end",[_[2]]="1"},[_[10]]={}},z=0,name=_[6]},{x=1,y=4,param1=15,meta={fields={[_[4]]=_[9],[_[8]]="formspec_version[2]size[15,12]style_type[label,textarea;font=mono]background[0,0;15,12;jeija_luac_background.png]textarea[0.2,0.5;14.6,9.0;code;;CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"F\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+   else\
+  end]textarea[0.2,9.8;14.6,1.0;;;]image_button[6.25,10.8;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[14.5,0;0.4,0.387;jeija_close_window.png;exit;]",[_[7]]="2412",[_[3]]=_[1],code="CH = display1\
+\
+  if event.msg == \"0\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+ elseif event.msg == \"1\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"2\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"3\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"4\" then\
+    port.a = true\
+    port.b = false\
+    port.c = true\
+  elseif event.msg == \"5\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"6\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"7\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"8\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"9\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"C\" then\
+    port.a = true\
+    port.b = true\
+    port.c = true\
+  elseif event.msg == \"A\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"B\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"D\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"E\" then\
+    port.a = true\
+    port.b = false\
+    port.c = false\
+  elseif event.msg == \"F\" then\
+    port.a = false\
+    port.b = false\
+    port.c = false\
+   else\
+  end",[_[2]]="1"},[_[10]]={}},z=0,name=_[6]},{x=2,y=0,param1=15,param2=1,z=0,name=_[5]},{x=2,y=1,param1=15,param2=1,z=0,name=_[5]},{x=2,y=2,param1=15,param2=1,z=0,name=_[5]},{x=2,y=3,param1=15,param2=1,z=0,name=_[5]},{x=2,y=4,param1=15,param2=1,z=0,name=_[5]}}
