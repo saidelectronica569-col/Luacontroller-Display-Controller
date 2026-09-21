@@ -1,7 +1,7 @@
 # Luacontroller-Display-Controller
 Está basado en un Luacontroller
 
-Aunque se creció el código por tantos if elseif else, no importa
+Aunque hice el código muy largo por tantos if elseif else, no importa
 
 Carácteres:
 0-9 = Números,
